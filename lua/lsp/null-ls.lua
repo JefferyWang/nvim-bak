@@ -16,6 +16,12 @@ null_ls.setup({
         formatting.shfmt,
         -- StyLua
         formatting.stylua,
+        -- Golang
+        formatting.gofmt,
+        formatting.gofumpt,
+        formatting.goimports,
+        formatting.goimports_reviser,
+        formatting.golines,
         -- frontend
         formatting.prettier.with({ -- 只比默认配置少了 markdown
             filetypes = {

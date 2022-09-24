@@ -12,8 +12,8 @@ local servers = {
     tsserver = require('lsp.config.ts'),
     cssls = require('lsp.config.css'),
     gopls = require('lsp.config.go'),
-    --jdtls = require("lsp.config.java"),
-    --bashls = require('lsp.config.bash'), -- bash
+    jdtls = require('lsp.config.java'),
+    bashls = require('lsp.config.bash'), -- bash
 }
 -- 自动安装 Language Servers
 for name, _ in pairs(servers) do
