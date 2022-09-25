@@ -22,6 +22,8 @@ null_ls.setup({
         formatting.goimports,
         formatting.goimports_reviser,
         formatting.golines,
+        -- java
+        formatting.google_java_format,
         -- frontend
         formatting.prettier.with({ -- 只比默认配置少了 markdown
             filetypes = {

@@ -22,6 +22,14 @@ packer.startup({
         use('ahmedkhalf/project.nvim')
         -- treesitter
         use({ 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' })
+        -- comment
+        use('numToStr/Comment.nvim')
+        -- surround
+        use('ur4ltz/surround.nvim')
+        -- git
+        use({ 'lewis6991/gitsigns.nvim' })
+        -- nvim-autopairs
+        use('windwp/nvim-autopairs')
         --------------------- LSP --------------------
         use('williamboman/nvim-lsp-installer')
         -- Lspconfig
